@@ -1,7 +1,7 @@
 //bacically we see how to use api in node js
 //1
 const http=require('http');
-const port=process.env.port || 8000;
+const port=process.env.PORT || 8000;
 const fs=require('fs');
 //requests is npm module .first we make package.json file and then install requests module
 var requests=require('requests');
