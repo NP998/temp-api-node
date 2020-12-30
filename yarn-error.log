@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add gh-pages
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Python38\Scripts\;C:\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\heroku\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\Users\NAVIN\AppData\Local\Microsoft\WindowsApps;C:\Users\NAVIN\AppData\Local\atom\bin;C:\Users\NAVIN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NAVIN\AppData\Local\Yarn\bin;C:\Users\NAVIN\AppData\Roaming\npm;C:\Program Files\heroku\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.15.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\projects\NODEJS\weather_casting\package.json: Unexpected token } in JSON at position 229
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "api",
+    "homepage": "https://NP998.github.io/temp-api",
+    "version": "1.0.0",
+    "description": "weather casting",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+     
+    },
+    "author": "cs technical",
+    "license": "ISC",
+    "dependencies": {
+      "requests": "^0.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
