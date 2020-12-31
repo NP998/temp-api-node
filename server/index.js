@@ -5,7 +5,7 @@ const port=process.env.PORT || 8000;
 const fs=require('fs');
 //requests is npm module .first we make package.json file and then install requests module
 var requests=require('requests');
-const homeFile=fs.readFileSync('server/index.html','utf-8');
+const homeFile=fs.readFileSync('server/home.html','utf-8');
 const replaceVal=(tempVal,orgVal)=>{
         let temperature=tempVal.replace('{%tempval%}' , (orgVal.main.temp-273).toFixed(2));
          temperature=temperature.replace('{%tempmin%}' , (orgVal.main.temp_min-273).toFixed(2));
